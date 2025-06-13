@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen">
+<title>AI image generator 0.23</title>
+</head>
+<body>
+<h1>AI Image Generator NVDA Add-on</h1>
+<h2>Overview</h2>
+<p>The <strong>AI Image Generator</strong> is an NVDA add-on that enables users to generate images using AI by providing text prompts. It integrates seamlessly with NVDA, offering an accessible interface for visually impaired users to create and download AI-generated images.</p>
+<p><strong>Developed by</strong>: Sujan Rai at Team of Tech Visionary<br />
+<strong>Version</strong>: 0.23</p>
+<hr />
+<h2>Features</h2>
+<ul>
+<li>🎧 <strong>Accessible Interface</strong>: Fully compatible with the NVDA screen reader.</li>
+<li>🖼️ <strong>Text-to-Image Generation</strong>: Generate images by entering descriptive text prompts.</li>
+<li>💾 <strong>Image Download</strong>: Save generated images in PNG, JPEG, or BMP formats.</li>
+<li>🛠️ <strong>Customizable UI</strong>: Includes a clear button, about dialog, and shortcut keys for efficient navigation.</li>
+<li>⚙️ <strong>Multithreaded Processing</strong>: Prevents UI freezing by generating images in the background.</li>
+<li>🎨 <strong>Theming Support</strong>: Customizable color scheme for improved visibility.</li>
+<li>🌐 <strong>Social Integration</strong>: Links to the Telegram channel and website for additional resources.</li>
+</ul>
+<hr />
+<h2>Installation</h2>
+<ol>
+<li>Download the <code>.nvda-addon</code> file from the <a href="#">releases page</a>.</li>
+<li>Open NVDA and navigate to: <code>NVDA menu &gt; Tools &gt; Manage Add-ons</code>.</li>
+<li>Click <strong>Install</strong>, select the downloaded <code>.nvda-addon</code> file, and follow the prompts.</li>
+<li>Restart NVDA to enable the add-on.</li>
+</ol>
+<hr />
+<h2>Usage</h2>
+<h3>🔓 Open the Add-on:</h3>
+<ul>
+<li><strong>Shortcut</strong>: <code>NVDA+Shift+A</code></li>
+<li>Or via <code>NVDA Menu &gt; Tools &gt; AI Image Generator</code></li>
+</ul>
+<h3>🎨 Generate an Image:</h3>
+<ol>
+<li>Enter a descriptive prompt (e.g., <em>"A serene mountain landscape at sunset"</em>).</li>
+<li>Press <code>Alt+G</code> or click the <strong>Generate Image</strong> button.</li>
+<li>Wait while the image is generated (processing dialog will appear).</li>
+</ol>
+<h3>💾 View and Save Image:</h3>
+<ul>
+<li>Once generated, the image is shown in a preview dialog.</li>
+<li>Press <code>Alt+D</code> or click <strong>Download Image</strong> to save it.</li>
+</ul>
+<h3>ℹ️ About Dialog:</h3>
+<ul>
+<li>Press <code>Alt+A</code> or click <strong>About</strong> to view version info and get social links.</li>
+</ul>
+<h3>🧹 Clear Input:</h3>
+<ul>
+<li>Press <code>Alt+R</code> or click <strong>Clear</strong> to reset inputs and clear preview.</li>
+</ul>
+<h3>❌ Close:</h3>
+<ul>
+<li>Press <code>Alt+C</code> or click <strong>Close</strong> to exit the dialog.</li>
+</ul>
+<hr />
+<h2>Shortcut Keys</h2>
+<p>| Action               | Shortcut Key      |
+|----------------------|-------------------|
+| Open Generator       | <code>NVDA+Shift+A</code>    |
+| Generate Image       | <code>Alt+G</code>           |
+| Clear Input          | <code>Alt+R</code>           |
+| About Dialog         | <code>Alt+A</code>           |
+| Close Dialog         | <code>Alt+C</code>           |
+| Download Image       | <code>Alt+D</code>           |
+| Join Telegram        | <code>Alt+J</code> <em>(About)</em> |
+| Visit Website        | <code>Alt+W</code> <em>(About)</em> |</p>
+<hr />
+<h2>Dependencies</h2>
+<ul>
+<li><strong>NVDA</strong>: Version 2023.1 or later</li>
+</ul>
+<h3>🐍 Python Libraries:</h3>
+<ul>
+<li><code>wx</code> — GUI components</li>
+<li><code>requests</code> — API communication</li>
+<li><code>threading</code>, <code>json</code>, <code>io</code>, <code>webbrowser</code> — Standard libraries</li>
+<li><code>concurrent.futures</code> — For multithreaded processing</li>
+</ul>
+<h3>🧩 NVDA Modules:</h3>
+<ul>
+<li><code>gui</code>, <code>ui</code>, <code>globalPluginHandler</code>, <code>addonHandler</code>, <code>inputCore</code>, <code>scriptHandler</code></li>
+</ul>
+<hr />
+<h2>API Usage</h2>
+<p>This add-on uses the <strong>Pollinations AI API</strong>:<br />
+👉 <a href="https://image.pollinations.ai/prompt/"><code>https://image.pollinations.ai/prompt/</code></a></p>
+<blockquote>
+<p><strong>Note</strong>: An active internet connection is required for image generation.</p>
+</blockquote>
+<hr />
+<h2>Development</h2>
+<ul>
+<li>👨‍💻 <strong>Developer</strong>: Sujan Rai, Team of Tech Visionary  </li>
+<li>📦 <strong>Version</strong>: 0.23  </li>
+<li>📝 <strong>License</strong>: GNU General Public License v3.0  </li>
+<li>🧑‍💻 <strong>Source Code</strong>: <a href="#">GitHub Repository</a> <em>(update with actual link)</em></li>
+</ul>
+<hr />
+<h2>Contributing</h2>
+<p>Contributions are welcome!</p>
+<ul>
+<li>Submit issues or pull requests via GitHub.</li>
+<li>For major changes, contact the developer via the <a href="#">Telegram channel</a>.</li>
+</ul>
+<hr />
+<h2>Support</h2>
+<ul>
+<li>💬 <strong>Telegram</strong>: Join the <strong>Tech Visionary</strong> Telegram channel for help and updates.</li>
+<li>🌐 <strong>Website</strong>: Visit <strong>Tech Visionary Tutorials</strong> for more tools and guides.</li>
+<li>🐞 <strong>Issues</strong>: Use the GitHub <strong>Issues</strong> tab to report bugs or request features.</li>
+</ul>
+<hr />
+<h2>Known Issues</h2>
+<ul>
+<li>Image generation might fail if:</li>
+<li>The API is down</li>
+<li>The prompt is invalid</li>
+<li>Supports only PNG, JPEG, and BMP formats.</li>
+<li>Internet connection is mandatory.</li>
+</ul>
+<hr />
+<h2>Changelog</h2>
+<h3>v0.23 (Initial Release)</h3>
+<ul>
+<li>Initial release with core functionality</li>
+<li>Added multithreaded image generation</li>
+<li>Implemented accessible dialogs and shortcut keys</li>
+<li>Theming support for better UI</li>
+</ul>
+<hr />
+<h2>Acknowledgments</h2>
+<ul>
+<li>🙏 Thanks to the <strong>NVDA community</strong> for feedback and support.</li>
+<li>💡 Special thanks to <strong>Team of Tech Visionary</strong> for ideas and resources.</li>
+</ul>
+<hr />
+</body>
+</html>
