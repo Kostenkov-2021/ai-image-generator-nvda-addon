@@ -99,7 +99,7 @@ This add-on uses the **Pollinations AI API**:
 - 👨‍💻 **Developer**: Sujan Rai, Team of Tech Visionary  
 - 📦 **Version**: 0.23  
 - 📝 **License**: GNU General Public License v3.0  
-- 🧑‍💻 **Source Code**: [GitHub Repository](#) *(update with actual link)*
+- 🧑‍💻 **Source Code**: [GitHub Repository](https://github.com/techvisionaryteam/ai-image-generator-nvda-addon)
 
 ---
 
