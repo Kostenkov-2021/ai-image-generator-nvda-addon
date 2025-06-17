@@ -162,14 +162,8 @@ Contributions are welcome!
 
 ## Changelog
 
-### v0.23 (Initial Release)
-
-  * Initial release with core functionality
-  * Added multithreaded image generation
-  * Implemented accessible dialogs and shortcut keys
-  * Theming support for better UI
-
-
+### v0.24 (Initial Release)
+added support to nvda v2025.1.
 
 * * *
 
@@ -177,7 +171,3 @@ Contributions are welcome!
 
   * 🙏 Thanks to the **NVDA community** for feedback and support.
   * 💡 Special thanks to **Team of Tech Visionary** for ideas and resources.
-
-
-
-* * *
