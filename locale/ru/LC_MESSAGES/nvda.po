@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AI image generator 0.24\n"
+"POT-Creation-Date: 2025-06-30 16:01+0500\n"
+"PO-Revision-Date: 2025-06-30 16:24+0500\n"
+"Last-Translator: \n"
+"Language-Team: Russian translation team <nvda.ru>, Danil Kostenkov "
+"<danilkostenkov38@gmail.com\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: globalPlugins/AIImageGenerator\n"
+
+#: globalPlugins/AIImageGenerator/__init__.py:22
+#: globalPlugins/AIImageGenerator/__init__.py:29
+#: globalPlugins/AIImageGenerator/__init__.py:57
+msgid "AI Image Generator"
+msgstr "Генератор  изображений с помощью ИИ"
+
+#: globalPlugins/AIImageGenerator/__init__.py:30
+msgid "Generate images using AI"
+msgstr "Создавайте изображения с помощью искусственного интеллекта"
+
+#: globalPlugins/AIImageGenerator/__init__.py:41
+msgid "Opens the AI Image Generator add-on"
+msgstr "Открывает дополнение Генератор  изображений с помощью ИИ"
+
+#: globalPlugins/AIImageGenerator/__init__.py:68
+msgid "Enter your imagination here..."
+msgstr "Дайте волю своему воображению..."
+
+#: globalPlugins/AIImageGenerator/__init__.py:74
+msgid "&Clear"
+msgstr "О&чистить"
+
+#: globalPlugins/AIImageGenerator/__init__.py:75
+msgid "&About"
+msgstr "О &дополнении"
+
+#: globalPlugins/AIImageGenerator/__init__.py:76
+msgid "&Generate Image"
+msgstr "&Сгенерировать изображение"
+
+#: globalPlugins/AIImageGenerator/__init__.py:77
+#: globalPlugins/AIImageGenerator/__init__.py:279
+msgid "C&lose"
+msgstr "За&крыть"
+
+#: globalPlugins/AIImageGenerator/__init__.py:155
+msgid "Input cleared."
+msgstr "Ввод очищен."
+
+#: globalPlugins/AIImageGenerator/__init__.py:165
+msgid "Please enter a valid description."
+msgstr "Пожалуйста, введите корректное описание."
+
+#: globalPlugins/AIImageGenerator/__init__.py:165
+#: globalPlugins/AIImageGenerator/__init__.py:241
+#: globalPlugins/AIImageGenerator/__init__.py:331
+#: globalPlugins/AIImageGenerator/__init__.py:355
+#: globalPlugins/AIImageGenerator/__init__.py:375
+msgid "Error"
+msgstr "Ошибка"
+
+#: globalPlugins/AIImageGenerator/__init__.py:166
+msgid "No valid description entered."
+msgstr "Не введено корректное описание."
+
+#: globalPlugins/AIImageGenerator/__init__.py:242
+msgid "Image generation failed."
+msgstr "Не удалось сгенерировать изображение."
+
+#: globalPlugins/AIImageGenerator/__init__.py:247
+msgid "Please wait for the image generation to complete."
+msgstr "Пожалуйста, дождитесь завершения генерации изображения."
+
+#: globalPlugins/AIImageGenerator/__init__.py:248
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: globalPlugins/AIImageGenerator/__init__.py:251
+msgid "Cannot close while generating image."
+msgstr "Не удаётся закрыть во время создания изображения."
+
+#: globalPlugins/AIImageGenerator/__init__.py:259
+msgid "Please Wait..."
+msgstr "пожалуйста, подождите..."
+
+#: globalPlugins/AIImageGenerator/__init__.py:262
+msgid "AI is generating..."
+msgstr "Искусственный интеллект генерирует изображение..."
+
+#: globalPlugins/AIImageGenerator/__init__.py:268
+msgid "Generating image, please wait."
+msgstr "Генерируя изображение, пожалуйста, подождите."
+
+#: globalPlugins/AIImageGenerator/__init__.py:272
+msgid "Generated Image"
+msgstr "Сгенерированное изображение"
+
+#: globalPlugins/AIImageGenerator/__init__.py:278
+msgid "&Download Image"
+msgstr "За&грузить изображение"
+
+#: globalPlugins/AIImageGenerator/__init__.py:295
+msgid "Here is your described image generated with AI..."
+msgstr ""
+"Вот описание изображения, сгенерированного вами с помощью искусственного "
+"интеллекта..."
+
+#: globalPlugins/AIImageGenerator/__init__.py:327
+msgid "Image generated successfully."
+msgstr "Изображение сгенерировано успешно."
+
+#: globalPlugins/AIImageGenerator/__init__.py:331
+msgid "No image to download."
+msgstr "Нет изображения для загрузки."
+
+#: globalPlugins/AIImageGenerator/__init__.py:332
+msgid "No image available to download."
+msgstr "Изображение недоступно для загрузки."
+
+#: globalPlugins/AIImageGenerator/__init__.py:338
+msgid "Save Image"
+msgstr "Сохранить изображение"
+
+#: globalPlugins/AIImageGenerator/__init__.py:354
+msgid "Unsupported file format."
+msgstr "Неподдерживаемый формат файла."
+
+#: globalPlugins/AIImageGenerator/__init__.py:358
+msgid "Unsupported file format selected."
+msgstr "Выбран неподдерживаемый формат файла."
+
+#: globalPlugins/AIImageGenerator/__init__.py:367
+msgid "Image saved as {}"
+msgstr "Изображение сохранено в формате {}"
+
+#: globalPlugins/AIImageGenerator/__init__.py:368
+msgid "Success"
+msgstr "Успешно"
+
+#: globalPlugins/AIImageGenerator/__init__.py:371
+msgid "Image saved successfully to {}."
+msgstr "Изображение успешно сохранено по пути {}."
+
+#: globalPlugins/AIImageGenerator/__init__.py:374
+msgid "Error saving image: {}"
+msgstr "Ошибка при сохранении изображения: {}"
+
+#: globalPlugins/AIImageGenerator/__init__.py:378
+msgid "Failed to save image."
+msgstr "Не удалось сохранить изображение."
+
+#: globalPlugins/AIImageGenerator/__init__.py:385
+msgid "About the Add-on"
+msgstr "О дополнении"
+
+#: globalPlugins/AIImageGenerator/__init__.py:388
+msgid ""
+"AI Image Generator, v0.23, developed by Sujan Rai at Team of Tech "
+"Visionary.\n"
+"Join my Telegram channel for accessible and unique resources.\n"
+"Visit my website to browse very useful and powerful tutorials on the web."
+msgstr ""
+"Генератор  изображений с помощью ИИ, версия 0.23, разработано Суджаном "
+"Раем из Team of Tech Visionary.\n"
+"Присоединяйтесь к моему Telegram-каналу, там вы найдёте доступные и "
+"уникальные ресурсы.\n"
+"Посетите мой веб-сайт, чтобы ознакомиться с очень полезными и мощными "
+"руководствами в Интернете."
+
+#: globalPlugins/AIImageGenerator/__init__.py:393
+msgid "&No Thanks"
+msgstr "&нет, спасибо"
+
+#: globalPlugins/AIImageGenerator/__init__.py:394
+msgid "&Join Telegram"
+msgstr "&Подписаться на канал в Telegram"
+
+#: globalPlugins/AIImageGenerator/__init__.py:395
+msgid "Visit &Website"
+msgstr "Перейти на &веб-сайт"
